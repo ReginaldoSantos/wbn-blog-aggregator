@@ -1,3 +1,3 @@
-# Garante que bash scripts tenham final de linha LF
+# Ensure bash scripts end of line character (LF)
 *.sh text eol=lf
 /bin/* text eol=lf

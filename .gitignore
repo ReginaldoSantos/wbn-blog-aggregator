@@ -1,14 +1,10 @@
 .classpath
 .project
-.recommenders/
 .settings/
-.tern-project
 .tomcat/
 *.bak
 *.swp
 *.tmp
 /.metadata/
-/Servers/
-/updateexceptions.txt
 target/
 tmp/

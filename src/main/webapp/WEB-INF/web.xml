@@ -10,6 +10,7 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
 
+  <!-- DispatcherServlet is proper for presention layer -->
   <servlet>
     <servlet-name>dispatcher</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -23,5 +24,10 @@
     <url-pattern>*.xml</url-pattern>
     <url-pattern>*.json</url-pattern>
   </servlet-mapping>
+  
+  <!-- Beans from business layer will use this context -->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
   
 </web-app>

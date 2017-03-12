@@ -9,6 +9,7 @@ And it is here for studying purposes like trying new stuff and new ideas so I do
 1. Migrate from Apache Tiles to AngularJs or another client side technology.
 2. Use Spring Environment Features: @Profile and @PropertySource
 3. Try out Spring Cloud
+4. Change: hibernate => eclipselink
 
 # References
 
